@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #555;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: #222;
+}
+.clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccc;
+}
+.clip1 {
+  background-image: url(https://plus.unsplash.com/premium_photo-1708512215706-ae6ce650b5d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8);
+  background-size: cover
+  background-position: center;
+}
