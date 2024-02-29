@@ -23,6 +23,17 @@ body {
 }
 .clip1 {
   background-image: url(https://plus.unsplash.com/premium_photo-1708512215706-ae6ce650b5d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8);
-  background-size: cover
+  background-size: cover;
   background-position: center;
+}
+.clip2 {
+  background-image: url(https://images.unsplash.com/photo-1709108291282-abed72b7f95c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8);
+  background-size: cover;
+  background-position: center;
+}
+.clip3 {
+  background-image: url(https://plus.unsplash.com/premium_photo-1708512215706-ae6ce650b5d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHx8);
+  background-size: cover;
+  background-position: center;
+  clip-path: 0 0, 46% 0, 39% 100%, 0;
 }
