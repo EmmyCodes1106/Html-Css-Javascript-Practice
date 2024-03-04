@@ -10,14 +10,22 @@ body {
   justify-content: center;
   font-family: sans-serif;
 }
+
 a {
+  position: relative;
+  text-decoration: none;
+  perspective: 800px;
+  perspective-origin: -170%;
+  transform: rotateZ(270deg);
+}
+a div {
   padding: 2rem 3rem;
   text-transform: uppercase;
   background-color: blueviolet;
   color: white;
   font-size: 1.5rem;
   position: relative;
-  text-decoration: none;
+  z-index: 0;
 }
 a::before {
   content: 'button';
@@ -33,6 +41,7 @@ a::before {
   transform: rotateX(270deg);
   transform-origin: top;
   transition: all 0.5s;
+  z-index: 1;
 }
 a::after {
   content: 'button';
@@ -49,6 +58,7 @@ a::after {
   transform-origin: top;
   transition: all 0.5s;
   transition-delay: 0.25s;
+  z-index: 2;
 }
 a:hover::before,
 a:hover::after {
